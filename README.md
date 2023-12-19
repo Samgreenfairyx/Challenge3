@@ -1,4 +1,3 @@
-# Challenge3
 
 My Portfolio
 Welcome to my personal portfolio! This repository contains the code for my portfolio website, showcasing my projects, skills, and a bit about me. Feel free to explore and learn more about my journey as a young developer.
