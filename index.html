@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>My own Portfolio</title>
+  </head>
+  <body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+  <a class="navbar-brand"><img src="images/profile.jpg">Samantha Green</a>
+ 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="btn btn-primary btn-lg navCTA" href="#myWork" role="button">My work</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-primary btn-lg navCTA" href="#myCarousel" role="button">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-primary btn-lg navCTA" href="#contact-me" role="button">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- End navigation bar -->
+
+  <!-- Jumbotron hero section -->
+  <div class="jumbotron">
+   
+    <div class="jumboCopy profile2" style="background-image:url(./images/profile2.jpg);">
+      <h1 style="color: white;">Samantha Green</h1>
+      <p class="lead" style="color: white;">Young developer in the making.</p>
+    </div>
+  </div>
+
+    
+</div>
+  <!-- End jumbotron -->
+
+  <!--Work section-->
+  <!-- Cards -->
+  <div class="container-fluid content" id="myWork">
+    <h2 class="sectionHeading">My Work</h2>
+    <div class="row myWork">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/webpage.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">My webpage</h5>
+            <p class="card-text">My very first challenge I have done in this course showcasing my very first webpage.</p>
+            <a href="https://samgreenfairyx.github.io/FirstChallenge/" class="btn btn-primary">See here</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 1 -->
+
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/portfolio.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">My Portfolio</h5>
+            <p class="card-text">My first portfolio.</p>
+            <a href="https://samgreenfairyx.github.io/Challenge2/" class="btn btn-primary">See here</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/tobecontinued.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">More to come!</h5>
+            <p class="card-text">More and more projects to come in the future. Stay tuned!</p>
+            <a href="#" class="btn btn-primary">Coming soon</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 3 -->
+  <!--End Work section-->
+    </div>
+  </div>
+
+  <!--Skills section-->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="overlay-image" style="background-image:url(./images/skill1.png)"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h3>HTML</h3>
+          <p>Dominating HTML part of this bootcamp is very crucial as it is the baseline of every website.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlay-image" style="background-image:url(./images/skill1.png)"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h3>CSS</h3>
+          <p>CSS gives a real freedom to your imagination and also gives you an opportunity to show customers how thoughtful you can be when it comes to their comfort in navigating through your website.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlay-image" style="background-image:url(./images/skill1.png)"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h3>JavaScript</h3>
+          <p>I want to be able create a dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+        </div>
+      </div><div class="carousel-item">
+        <div class="overlay-image" style="background-image:url(./images/skill1.png)"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Git</h3>
+          <p>Github is a great tool for saving your work after making any changes and sharing with others so they can help as well.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!--End Skills section-->
+
+  <!--About me section-->
+
+ <section class="aboutMe">
+  <h2>About me</h2>
+  <p>I am a young developer wannabe trying to learn something new because I love the challenge.
+    This bootcamp will allow me to improve myself in my current job as well as give me an opportunity to find a possible future job in this area.</p>
+ </section>
+
+  <footer id="contact-me">
+    <div class="title"><h2>Contact Me</h2></div>
+    <div class="content-wrapper">
+        <div id="contact-list">
+            <ul>
+                <li>
+                    <a href="mailto:Samanthajanicegreen@gmail.com">Email</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Samgreenfairyx/" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://uk.linkedin.com/in/samanthajanicegreen" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <p>(+44) 7964723680</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
